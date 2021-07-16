@@ -1,0 +1,63 @@
+h1{
+    color:blue
+}
+
+.header{
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color:red;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 1;
+}
+
+.item img{
+    border: 5px solid #555;
+    border-color: black;
+}
+
+p,h2,a{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+body{
+    background-image: linear-gradient(to right, grey,white);
+}
+
+.links{
+    padding: 20px;
+    margin-right: 10px;
+    align-items: space-evenly;
+}
+
+.links a{
+    margin-left: 10px;
+}
